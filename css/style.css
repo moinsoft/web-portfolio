@@ -130,3 +130,15 @@ img {
   border-image: linear-gradient(180deg, blue, cyan);
   border-image-slice: 1;
 }
+
+.footer__area{
+  background: #282A36;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.courtesy{
+  font-weight: bold;
+  text-decoration: none;
+}
