@@ -80,3 +80,53 @@ img {
 .dream__btn__color{
   background-image: linear-gradient(45deg, #FFA032, #FFC61D);
 }
+
+
+.experience__area{
+  background-image: url("../assets/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience__box{
+  display: flex;
+}
+
+.experience__area h1, .single__experience h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.single__experience h3{
+  margin-bottom: 10px;
+}
+
+.single__experience p{
+  text-align: justify;
+}
+
+.single__experience{
+  width: 50%;
+  padding: 3%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.sky__highlight{
+  color:#3999F7 ;
+}
+
+#full__stack{
+  margin-right: 30px;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+#baby__web{
+  margin-left: 30px;
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
