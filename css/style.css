@@ -10,3 +10,61 @@ body {
   font-family: 'Roboto Mono', monospace;
   line-height: 1.5;
 }
+
+img{
+  width: 100%;
+}
+
+.section{
+  margin-top: 100px;
+}
+
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.banner__bg{
+  background-image: url("../assets/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.banner{
+  display: flex;
+}
+
+.banner__description, .banner__image{
+  width: 50%;
+  padding: 2%;
+}
+
+
+
+.banner__description h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.banner__description h3{
+  margin: 25px 0 35px 0;
+}
+
+
+.banner__description p{
+  margin-bottom: 35px;
+}
+
+.name__highlight{
+  color:#3999F7 ;
+}
+
+.link__btn{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #3999F7, #0EE7CC);
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
